@@ -1,2 +1,8 @@
 # solar_tracker
 Solar tracker using Arduino and LDR sensors
+
+Sun Tracking Solar Panel using Arduino, in which we will use two LDRs (Light dependent resistor) to sense the light and a servo motor to automatically rotate the solar panel in the direction of the sun light. Advantage of this project is that Solar panel will always follow the sun light will always face towards the sun to get charge all the time and can provide the supply the maximum power. The prototype is very easy to build. Below you will find the complete description of how it works and how the prototype is made.
+# How it Works:
+In this project, LDR’s are working as light detectors. Before we go into detail, we will have to understand how the LDR’s work. LDR (Light Dependent Resistor) also known as photo resistor is the light sensitive device. Its resistance decrease when the light falls on it and that’s why it is frequently used in Dark or Light Detector Circuit. Check the various circuits based on LDR here.
+
+The two LDR’s are placed at the two sides of solar panel and the Servo Motor is used to rotate the solar panel. The servo will move the solar panel towards the LDR whose resistance will be low, mean towards the LDR on which light is falling, that way it will keep following the light. And if there is same amount of light falling on both the LDR, then servo will not rotate. The servo will try to move the solar panel in the position where both LDR’s will have the same resistance means where same amount of light will fall on both the resistors and if resistance of one of the LDR will change then it rotates towards lower resistance LDR. Check the Demonstration Video at the end of this Article.
